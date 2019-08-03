@@ -1,0 +1,34 @@
+<ion-content>
+
+  <div class="logo-box">
+    <img src="/assets/imgs/chat.png" alt="">
+  </div>
+
+  <div class="login-form">
+    <h2 text-center>
+      <small>Enter your confirmation code</small>
+
+      <br>
+      <small>{{ phone }}</small>
+    </h2>
+
+    <ion-list lines="none">
+
+      <ion-item>
+        <ion-input type="text" placeholder="Enter confirmation code" text-center [(ngModel)]="confirmationCode">
+        </ion-input>
+      </ion-item>
+
+    </ion-list>
+
+    <ion-button mode="ios" color="primary" expand="block" (click)="enterToTabsPage()">
+      Confirm
+    </ion-button>
+    <br>
+    <ion-button mode="ios" color="medium" expand="block" size="small">
+      Resend code
+    </ion-button>
+
+  </div>
+
+</ion-content>

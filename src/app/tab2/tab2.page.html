@@ -1,0 +1,23 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title>
+      Contacts
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="bg">
+
+  <ion-list lines="none" class="app-list">
+    <ion-item *ngFor="let contact of contactsList" (click)="showConversationPage()">
+      <ion-avatar slot="start">
+        <img [src]="contact.avatar">
+      </ion-avatar>
+      <ion-label>
+        <h2>{{ contact.name }}</h2>
+        <p>{{ contact.status }}</p>
+      </ion-label>
+    </ion-item>
+  </ion-list>
+
+</ion-content>
