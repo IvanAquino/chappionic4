@@ -14,6 +14,7 @@ Copiar el archivo __src/theme/chappionic.scss__ e importarlo en __global.scss__
 ```
 
 Screen captures: [https://codigoaxaca.com/en/38/template-for-ionic-4-free-chat-app/](https://codigoaxaca.com/en/38/template-for-ionic-4-free-chat-app/)
+
 Capturas de pantalla: [https://codigoaxaca.com/26/tema-para-ionic-4-gratis-chat-app/](https://codigoaxaca.com/26/tema-para-ionic-4-gratis-chat-app/)
 
 
