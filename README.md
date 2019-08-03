@@ -7,6 +7,7 @@
 ## How to use it in my project - Como usarlo en mi proyecto
 
 Copy theme file __src/theme/chappionic.scss__ and import in __global.scss__
+
 Copiar el archivo __src/theme/chappionic.scss__ e importarlo en __global.scss__
 
 ```
